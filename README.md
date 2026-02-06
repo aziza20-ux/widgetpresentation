@@ -1,16 +1,28 @@
-# widgetpresentation
+# WidgetPresentation
 
-A new Flutter project.
+A Flutter app with a bottom navigation widget to switch between Home, Notes, and Phone screens.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## Screenshot
 
-A few resources to get you started if this is your first Flutter project:
+![final UI](image.png)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Run Instructions
+
+```bash
+git clone https://github.com/your-username/widgetpresentation.git
+cd widgetpresentation
+flutter pub get
+flutter run
+
+Widget Highlights
+
+State Preservation – Screens keep their state using IndexedStack.
+
+Dynamic Navigation – BottomNavigationBar allows seamless tab switching.
+
+Customizable Tabs – Each tab has its own icon, label, and color.
+
